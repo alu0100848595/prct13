@@ -28,3 +28,4 @@ for j in range(10):
  y=y+[s]
 pl.plot(x,y)
 pl.show()
+pl.savefig("secons.eps", dpi=72)
